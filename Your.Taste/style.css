@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* START-HEADER */
+
+header{
+    width: 100%;
+    height: 800px;
+    background-image: url('/img/home-bg.png');
+    background-size: cover;
+    opacity: 1;
+} 
+.phone-element{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.phone a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.phone p{
+    margin: 10px;
+}
+.time{
+    display: flex;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+.time a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+}
+.fa-facebook-f{
+    transition: 0.3s;
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-instagram{
+    transition: 0.3s;
+}
+.fa-instagram:hover{
+    color: crimson;
+}
+.fa-twitter{
+    transition: 0.3s;
+}
+.fa-twitter:hover{
+    color: rgb(0, 174, 255);
+}
+.fa-whatsapp{
+    transition: 0.3s;
+}
+.fa-whatsapp:hover{
+    color: rgb(2, 207, 53);
+}
+nav{
+    width: 80%;
+    height: 14vh;
+    background-color: rgba(0, 0, 0, 0.493);
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+.logo span{
+    color: rgb(192, 17, 52);
+    transition: 0.3s;
+}
+.logo:hover{
+    color: rgb(192, 17, 52);
+}
+.logo span:hover{
+    color: white;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 15.5px;
+    transition: 0.3s;
+    letter-spacing: 1.5px;
+    font-family: poppins;
+}
+.nav-links a:hover{
+    color: rgb(192, 17, 52);
+}
+.home-text {
+    text-align: center;
+    padding-top: 200px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+/* END-HEADER */
+
+/* MAIN */
+/* ABOUT */
+
+#about{
+    width: 100%;
+    height: 630px;
+}
+.about-section{
+    display: flex;
+}
+.red-box{
+    width: 350px;
+    height: 630px;
+    background-color: rgb(189, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.input input{
+    width: 280px;
+    height: 50px;
+    background: none;
+    font-size: 15px;
+    margin: 10px;
+    border: solid rgb(241, 241, 241) 1px;
+    color: white;
+    padding-left: 10px;
+}
+.input input::placeholder{
+    color: white;
+}
+.book-button{
+    width: 280px;
+    height: 50px;
+    background: none;
+    color: white;
+    border: solid rgb(241, 241, 241) 1px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.book-button:hover{
+    color: rgb(95, 24, 24);
+    background-color: rgba(255, 255, 255, 0.349);
+}
+.about-text{
+    width: 400px;
+    height: 580px;
+    margin-left: 60px;
+    margin-top: 50px;
+    z-index: 1;
+}
+.about-text h1{
+    font-family: 'Dancing Script';
+    font-size: 80px;
+    color: rgb(189, 22, 22);
+}
+.about-text h2{
+    font-family: 'Cinzel', serif;
+    width: 350px;
+    font-size: 50px;
+    position: relative;
+    top: -40px;
+}
+.about-text p{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: -25px;
+    color: rgb(34, 34, 34);
+}
+
+/* ABOUT */
+/* BOOK */
+
+#book{
+    width: 100%;
+    height: 350px;
+    background-image: url('/img/fixed-img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#book h1{
+    color: rgb(231, 231, 231);
+    letter-spacing: 3px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+#book p{
+    color: rgb(231, 231, 231);
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* BOOK */
+/* MENU */
+
+#menu{
+    width: 100%;
+    min-height: 800px;
+}
+.titel{
+    text-align: center;
+    margin-top: 80px;
+}
+.titel h1{
+    font-family: 'Dancing Script';
+    font-size: 65px;
+    color: rgb(189, 22, 22);
+}
+.titel p{
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    position: relative;
+    top: -35px;
+}
+.meal-box{
+    width: 350px;
+    height: 630px;
+    background-color: rgb(241, 241, 241);
+    border: dashed rgb(219, 219, 219) 1px;
+    transition: 0.5s;
+    margin: 20px;
+}
+.icon{
+    color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    margin: 3px;
+}
+.meal-box h1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+    margin-top: 20px;
+}
+.meal{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.meal-box:hover{
+    border: dashed rgb(189, 22, 22) 1px;;
+}
+.meal-content{
+    margin-left: 15px;
+}
+.meal1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.meal1:hover .meal-titel{
+    color: rgb(189, 22, 22);
+}
+
+/* MENU */
+
+/* CUSTOMER */
+
+#customer{
+    background-image: url('/img/customer-bg.png');
+    background-attachment: fixed;
+    background-position-y: -150px;
+    background-position-x: -100px;
+    width: 100%;
+    height: 450px;
+    margin-top: 150px;
+}
+.comment{
+    text-align: center;
+    width: 350px;
+    height: 250px;
+}
+.comment p{
+    font-family: poppins;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* CUSTOMER */
+/* CHEF */
+
+#chef{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height: 1450px;
+}
+.cadre{
+    width: 288px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 black;
+    transition: 0.3s;
+}
+.cadre:hover{
+    box-shadow: 0 0 11px 0 black;
+}
+.cadre h1{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin: 10px 0 5px 10px;
+}
+.cadres{
+    display: flex;
+    justify-content: center;
+}
+.learn-more{
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: bold;
+    color: rgb(189, 22, 22);
+    background: none;
+    border: solid rgb(189, 22, 22) 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.learn-more:hover{
+    background-color: rgb(189, 22, 22);
+    color: white;
+    border: solid white 1px;
+}
+
+/* CHEF */
+/* RESERVE */
+
+#reserve{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(189, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.learn-more1{
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    font-family: poppins;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: solid white 1px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.learn-more1:hover{
+    background-color: white;
+    color: rgb(189, 22, 22);
+    border: solid white 1px;
+}
+/* RESERVE */
+
+/* MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+.big-part{
+    display: flex;
+    justify-content: center;
+}
+.part{
+    width: 250px;
+    height: 200px;
+    color: white;
+    margin: 30px;
+}
+.part h1{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+.part p{
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(201, 201, 201);
+}
+.footer-icon{
+    color: rgb(189, 22, 22);
+    font-size: 40px;
+    margin-top: 20px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+/* FOOTER */
